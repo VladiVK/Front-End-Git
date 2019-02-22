@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TaskManager</title>
+    <style>
+    #current {
+            width: 400px;
+            background-color: bisque;
+            border: 1px solid black;
+            padding: 10px;
+    }
+
+    button {
+        border-radius: 3px;
+    }
+    </style>
+</head>
+<body>
+    <div id="time" style="font-size: 25px"></div>
+    <h1>TaskManager</h1>
+    <div id="current">
+        <h2>Current task:</h2>
+        <p id="demo" style="font-size: 33px;">Tasks </p>
+        <button onclick="hideTask()">Hide this task</button> 
+    </div>
+    
+    
+    <p id="demo2" style="font-size: 33px;">Time of tasks</p>
+
+    
+
+    <button id="futureTasks">Show future tasks</button>
+    <div id="tasksList"></div>
+
+
+        
+    
+    
+
+    <script src="task.js"></script>
+</body>
+</html>
